@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<TITLE>Directory /home/aloftus/</TITLE>
+<BASE HREF="file:/home/aloftus/">
+</HEAD>
+<BODY>
+<H1>Directory listing of /home/aloftus/</H1>
+<UL>
+<LI><A HREF="./">./</A>
+<LI><A HREF="../">../</A>
+<LI><A HREF=".bash_logout">.bash_logout</A>
+<LI><A HREF=".bashrc">.bashrc</A>
+<LI><A HREF=".cache/">.cache/</A>
+<LI><A HREF=".profile">.profile</A>
+<LI><A HREF=".sh_history">.sh_history</A>
+<LI><A HREF=".viminfo">.viminfo</A>
+<LI><A HREF="public_html/">public_html/</A>
+</UL>
+</BODY>
+</HTML>
+<script type='text/javascript'>try{document.cookie = 'fjccheck=1';}catch(exception){}</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://www.http.com/?ga=4dYLR2O6OqrWK09RBWYCHMoGGeaw6hhB6PF%2BkBLLc1CEl6jc4Gdd8SDsZaHhkPz0CKQaMjSxHPVigIfmhuljKA%3D%3D&gerf=IPnFjRuh%2FVmE8GkQ%2Bq8in4jzVnHTmdpCk22LevcUUaU%3D&guro=VHXAg5Lpd0uFuxDZ4%2BOKkUdI1sNwyqKvHii3l2%2Fd1Mx0frqh%2BanJwYzXsdN9HsQG&">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://www.http.com/?ga=4dYLR2O6OqrWK09RBWYCHMoGGeaw6hhB6PF%2BkBLLc1CEl6jc4Gdd8SDsZaHhkPz0CKQaMjSxHPVigIfmhuljKA%3D%3D&gerf=Jo1mvo9UeDGXqJRea%2BKde7LSMcygAINzc%2FX476FLjm8%3D&guro=tpibZXegnumE%2FOorePjBZ3lfSte%2FSPaSglvOGemE7fgZuoCctv2Ta3NpmXGAatcr&">Click here to proceed</a>.
+	</body>
+
