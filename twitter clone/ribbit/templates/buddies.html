@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block login %}
+    {% with user.username as username %}
+        {{ block.super }}
+    {% endwith %}
+{% endblock %}
+
+{% block content %}
+    <div class="panel right">
+        <h1>Create a Ribbit</h1>
+        <p>
+            <form action="/submit" method="post">
+            {% for field in ribbit_form %}{% csrf_token %}
+            {{ field }}
+            {% endfor %}
+            <input type="hidden" value="{{ next_url }}" name="next_url">
+            <input type="submit" value="Ribbit!">
+            </form>
+        </p>
+    </div>
+    <div class="panel left">
+        <h1>Buddies' Ribbits</h1>
+        {% for ribbit in ribbits %}
+        <div class="ribbitWrapper">
+            <a href="/users/{{ ribbit.user.username }}">
+                <img class="avatar" src="{{ ribbit.user.profile.gravatar_url }}">
+                <span class="name">{{ ribbit.user.first_name }}</span>
+            </a>
+            @{{ ribbit.user.username }}
+            <p>
+                {{ ribbit.content }}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
