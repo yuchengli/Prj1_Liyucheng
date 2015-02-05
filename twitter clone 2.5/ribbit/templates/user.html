@@ -19,13 +19,13 @@
                 <span class="spacing">{{ user.profile.follows.all.count }} Following</span>
                 <span class="spacing">{{ user.profile.followed_by.all.count }} Followers</span>
             </p>
-            {% if follow %}
+       
             <form action="/follow" method="post">
                 {% csrf_token %}
                 <input type="hidden" name="follow" value="{{ user.id }}">
                 <input type="submit" value="Follow">
             </form>
-            {% endif %}
+           
         </div>
     </div>
  
